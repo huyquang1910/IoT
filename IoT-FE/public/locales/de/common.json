@@ -1,0 +1,164 @@
+{
+  "pages": {
+    "login": {
+      "title": "Đăng nhập vào tài khoản của bạn",
+      "signin": "Đăng nhập",
+      "signup": "Đăng ký",
+      "divider": "hoặc",
+      "fields": {
+        "email": "Email",
+        "password": "Mật khẩu"
+      },
+      "errors": {
+        "validEmail": "Email không hợp lệ"
+      },
+      "buttons": {
+        "submit": "Đăng nhập",
+        "forgotPassword": "Quên mật khẩu?",
+        "noAccount": "Bạn chưa có tài khoản?",
+        "rememberMe": "Ghi nhớ đăng nhập"
+      }
+    },
+    "forgotPassword": {
+      "title": "Quên mật khẩu?",
+      "fields": {
+        "email": "Email"
+      },
+      "errors": {
+        "validEmail": "Email không hợp lệ"
+      },
+      "buttons": {
+        "submit": "Gửi hướng dẫn đặt lại mật khẩu"
+      }
+    },
+    "register": {
+      "title": "Đăng ký tài khoản",
+      "fields": {
+        "email": "Email",
+        "password": "Mật khẩu"
+      },
+      "errors": {
+        "validEmail": "Email không hợp lệ"
+      },
+      "buttons": {
+        "submit": "Đăng ký",
+        "haveAccount": "Đã có tài khoản?"
+      }
+    },
+    "updatePassword": {
+      "title": "Cập nhật mật khẩu",
+      "fields": {
+        "password": "Mật khẩu mới",
+        "confirmPassword": "Xác nhận mật khẩu mới"
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "Mật khẩu không trùng khớp"
+      },
+      "buttons": {
+        "submit": "Cập nhật"
+      }
+    },
+    "error": {
+      "info": "Bạn đã quên thêm thành phần {{action}} vào {{resource}}.",
+      "404": "Rất tiếc, trang này không tồn tại.",
+      "resource404": "Bạn đã tạo {{resource}} chưa?",
+      "backHome": "Trở về Trang chủ"
+    }
+  },
+  "actions": {
+    "list": "Liệt kê",
+    "create": "Tạo",
+    "edit": "Chỉnh sửa",
+    "show": "Hiển thị"
+  },
+  "buttons": {
+    "create": "Tạo",
+    "save": "Lưu",
+    "logout": "Đăng xuất",
+    "delete": "Xóa",
+    "edit": "Chỉnh sửa",
+    "cancel": "Hủy",
+    "confirm": "Chắc chắn?",
+    "filter": "Lọc",
+    "clear": "Xóa",
+    "refresh": "Làm mới",
+    "show": "Hiển thị",
+    "undo": "Hoàn tác",
+    "import": "Nhập",
+    "clone": "Sao chép",
+    "notAccessTitle": "Bạn không có quyền truy cập"
+  },
+  "warnWhenUnsavedChanges": "Những thay đổi chưa được lưu sẽ không được giữ lại.",
+  "notifications": {
+    "success": "Thành công",
+    "error": "Lỗi (mã trạng thái: {{statusCode}})",
+    "undoable": "Bạn có {{seconds}} giây để Hoàn tác.",
+    "createSuccess": "Đã tạo {{resource}} thành công.",
+    "createError": "Lỗi khi tạo {{resource}} (mã trạng thái: {{statusCode}})",
+    "deleteSuccess": "Đã xóa {{resource}} thành công.",
+    "deleteError": "Lỗi khi xóa {{resource}} (mã trạng thái: {{statusCode}})",
+    "editSuccess": "Đã chỉnh sửa {{resource}} thành công.",
+    "editError": "Lỗi khi chỉnh sửa {{resource}} (mã trạng thái: {{statusCode}})",
+    "importProgress": "{{processed}}/{{total}} đã được nhập"
+  },
+  "loading": "Đang tải",
+  "tags": {
+    "clone": "Sao chép"
+  },
+  "dashboard": {
+    "title": "Bảng điều khiển"
+  },
+  "blog_posts": {
+    "blog_posts": "Bài đăng Blog",
+    "fields": {
+      "id": "Id",
+      "title": "Tiêu đề",
+      "content": "Nội dung",
+      "status": "Trạng thái",
+      "created_at": "Được tạo lúc",
+      "category_id": "Thể loại",
+      "category": "Thể loại"
+    },
+    "titles": {
+      "create": "Tạo mới",
+      "edit": "Chỉnh sửa",
+      "list": "Danh sách",
+      "show": "Hiển thị bài viết"
+    }
+  },
+  "categories": {
+    "categories": "Danh mục",
+    "fields": {
+      "id": "Id",
+      "title": "Tiêu đề",
+      "created_at": "Được tạo lúc"
+    },
+    "titles": {
+      "create": "Tạo mới",
+      "edit": "Chỉnh sửa",
+      "list": "Danh sách",
+      "show": "Hiển thị"
+    }
+  },
+  "documentTitle": {
+    "default": "refine",
+    "suffix": " | refine",
+    "blog_posts": {
+      "list": "Bài đăng Blog | refine",
+      "show": "#{{id}} Hiển thị Bài viết Blog | refine",
+      "edit": "#{{id}} Chỉnh sửa Bài viết Blog | refine",
+      "create": "Tạo Bài viết Blog mới | refine",
+      "clone": "#{{id}} Sao chép Bài viết Blog | refine"
+    },
+    "categories": {
+      "list": "Danh mục | refine",
+      "show": "#{{id}} Hiển thị Danh mục | refine",
+      "edit": "#{{id}} Chỉnh sửa Danh mục | refine",
+      "create": "Tạo Danh mục mới | refine",
+      "clone": "#{{id}} Sao chép Danh mục | refine"
+    }
+  },
+  "table": {
+    "actions": "Hành động"
+  }
+}

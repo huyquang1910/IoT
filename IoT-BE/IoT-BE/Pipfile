@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+channels = "*"
+channels-redis = "*"
+django-cors-headers = "*"
+daphne = "*"
+pyjwt = "*"
+drf-spectacular = "*"
+boto3 = "*"
+joblib = "*"
+scikit-learn = "==1.2.2"
+pandas = "==1.5.3"
+schedule = "*"
+websocket-client = "*"
+websockets = "*"
+pytz = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
