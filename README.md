@@ -5,6 +5,7 @@ Tính năng chính:
 - Xác thực, phân quyền người dùng
 - Chế độ tưới thủ công
 - Chế độ tưới tự động: sử dụng mô hình SVM (Support Vector Machine)
+  
 Thành viên nhóm:
 - Trần Đức Huy - B20DCCN325
 - Mai Quang Huy - B20DCCN313
